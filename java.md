@@ -48,4 +48,26 @@ Steps:
 1. no of rows(for outer loop)
 2. no of coulmns(for inner loop)
 3. what to print and how
+# functions
+#### Syntax:
+return type name(parameters)
+parameter: it is the place holder in the function
+argument: it is the actual value passed to the function
+#Memmory management:
+all the memmory used durning run time is stored in heap
+# Access modifiers:
+1. default: no keyword
+2. public: it can be accessed by all
+3. private: it can be accessed in the class it self
+4. protected: can be accessed by classes having passwords
+# Array
+1. fixed length
+2. homogeneous data type
+3. contegeously stored
+problems:
+1. fixed length-might waste memmory, might be less for some cases
+2. only same type of memmory can be stored 
+Declaration:
+1. dt[] arrname = new dt[size]
+2. dt[] arrname ={elements}
 
