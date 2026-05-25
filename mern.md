@@ -113,54 +113,8 @@ for cloning a remote respository:
 ## conflicts resolution
 1. either we accept current changes
 2. either we accept incomming changes
-3. 
-###### PS C:\Users\shahm\OneDrive\Documents\New folder\mt1> git remote add origin git@github.com:Moxshahhh/respository.git
->> git branch -M main
->> git push -u origin main
-error: remote origin already exists.
-Enumerating objects: 8, done.
-Counting objects: 100% (8/8), done.
-Delta compression using up to 8 threads
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (8/8), 1.27 MiB | 960.00 KiB/s, done.
-Total 8 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (1/1), done.
-To https://github.com/Moxshahhh/respository.git
- * [new branch]      main -> main
-branch 'main' set up to track 'origin/main'.
-PS C:\Users\shahm\OneDrive\Documents\New folder\mt1> cd MT1/
-cd : Cannot find path 'C:\Users\shahm\OneDrive\Documents\New folder\mt1\MT1\' because it does not exist.
-At line:1 char:1
-+ cd MT1/
-+ ~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (C:\Users\shahm\...folder\mt1\MT1\:String) [Set-Location], ItemNotFo 
-   undException
-    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
- 
-PS C:\Users\shahm\OneDrive\Documents\New folder\mt1> cd MT1 /
-Set-Location : A positional parameter cannot be found that accepts argument '/'.
-At line:1 char:1
-+ cd MT1 /
-+ ~~~~~~~~
-    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
-    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
- 
-PS C:\Users\shahm\OneDrive\Documents\New folder\mt1> ls
-
-
-    Directory: C:\Users\shahm\OneDrive\Documents\New folder\mt1
-
-
-Mode                 LastWriteTime         Length Name                                                             
-----                 -------------         ------ ----                                                             
--a---l        13-05-2026     13:00            261 antshant.html                                                    
--a---l        14-05-2026     12:52        1347222 Chhota-Bheem-Title.mp3                                           
--a---l        14-05-2026     13:25           1530 index.html                                                       
--a---l        16-05-2026     09:27           1621 java.md                                                          
--a---l        14-05-2026     09:09            413 Main.java                                                        
--a---l        18-05-2026     13:18           3245 mern.md                                                          
-
-
-PS C:\Users\shahm\OneDrive\Documents\New folder\mt1> git checkout antshant
-error: pathspec 'antshant' did not match any file(s) known to git
-PS C:\Users\shahm\OneDrive\Documents\New folder\mt1> 
+____________________________________________________________________________________________
+# CSS
+external- low priority
+internal- medium
+inline -highest
